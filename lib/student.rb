@@ -6,8 +6,8 @@ class Student < User
   end 
   
   def learn(string)
-    binding.pry
-    knowledge << string 
+   # binding.pry
+    @knowledge << string 
   end 
     
 
