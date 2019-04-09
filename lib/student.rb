@@ -1,3 +1,4 @@
+require "pry"
 class Student < User
   
   def initialize
@@ -5,8 +6,10 @@ class Student < User
   end 
   
   def learn(string)
+    binding.pry
     knowledge << string 
   end 
     
+
 
 end
